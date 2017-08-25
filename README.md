@@ -1,9 +1,8 @@
 # megaman: Manifold Learning for Millions of Points
 
-<img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/word2vec_rmetric_plot_no_digits.png" height=210>
-<img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/spectra_D4000.png" height=210>
-<img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/spectra_Halpha.png" height=210>
+<img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/word2vec_rmetric_plot_no_digits.png" height=200><img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/spectra_D4000.png" height=200><img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/spectra_Halpha.png" height=200>
 
+[![Anaconda-Server Badge](https://anaconda.org/conda-forge/megaman/badges/downloads.svg)](https://anaconda.org/conda-forge/megaman)
 [![build status](http://img.shields.io/travis/mmp2/megaman/master.svg?style=flat)](https://travis-ci.org/mmp2/megaman)
 [![version status](http://img.shields.io/pypi/v/megaman.svg?style=flat)](https://pypi.python.org/pypi/megaman)
 [![license](http://img.shields.io/badge/license-BSD-blue.svg?style=flat)](https://github.com/mmp2/megaman/blob/master/LICENSE)
@@ -22,7 +21,7 @@ steps and indices to allow for fast re-computation with new parameters.
 
 Package documentation can be found at http://mmp2.github.io/megaman/
 
-If you use our software please cite the following JMLR paper: 
+If you use our software please cite the following JMLR paper:
 
 McQueen, Meila, VanderPlas, & Zhang, "Megaman: Scalable Manifold Learning in Python",
 Journal of Machine Learning Research, Vol 17 no. 14, 2016.
@@ -70,7 +69,7 @@ Optional requirements include
 These requirements can be installed on Linux and MacOSX using the following conda command:
 
 ```
-$ conda install --channel=conda-forge pip nose coverage gcc cython numpy scipy scikit-learn pyflann pyamg
+$ conda install --channel=conda-forge pip nose coverage gcc cython numpy scipy scikit-learn pyflann pyamg h5py
 ```
 
 Finally, within the source repository, run this command to install the ``megaman`` package itself:
@@ -91,7 +90,7 @@ to run the unit tests. ``megaman`` is tested on Python versions 2.7, 3.4, and 3.
 - [Zhongyue Zhang](https://github.com/Jerryzcn)
 - [Jake VanderPlas](http://www.vanderplas.com)
 
-## Other Contributors 
+## Other Contributors
 
 - Xiao Wang: lazy rmetric, Nystrom Extension
 
