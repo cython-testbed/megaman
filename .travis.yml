@@ -32,7 +32,7 @@ before_install:
 - source activate testenv
 - conda install -c $CONDA_CHANNEL $CONDA_DEPS $EXTRA_DEPS
 - travis_retry pip install $PIP_DEPS
-- travis_retry pip install --install-option="--no-cython-compile" https://github.com/cython/cython/archive/0dcb5d1930e573caa8494fe838c4c2cd4e2041f2.zip
+- travis_retry pip install --install-option="--no-cython-compile" https://github.com/cython/cython/archive/7b4079c50d88f5ce1cf3cc55a6f46cd6e35cbda4.zip
 
 install:
 - python setup.py install
